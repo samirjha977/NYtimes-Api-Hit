@@ -4,7 +4,7 @@ var request = require('request');
 router.get('/', function (req, res) {
   request.get({url: "https://api.nytimes.com/svc/search/v2/articlesearch.json",
       qs: {
-      'api-key': "c6dfd1ddeb3e4b9aabe215e573c1629b",
+      'api-key': "api key",
       'q': "trump immigration",
       'begin_date': "20170201",
       'fl': "snippet"
